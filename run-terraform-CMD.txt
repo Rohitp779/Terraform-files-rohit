@@ -7,3 +7,7 @@ terraform plan
 terraform apply --auto-approve
 
 terraform destroy
+
+*** for vpc creation use seperate folder with variable.tf file 
+
+*** for ec2 creation file use seperate folder with variable.tf file
