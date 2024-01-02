@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_instance" "terraform_way" {
   ami                     = "ami-018ba43095ff50d08"
-  instance_type           = "t2.micro"
+  instance_type           = "t2.xlarge"
    
 tags = {
     Name = "terraform_way"
